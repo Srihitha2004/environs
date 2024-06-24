@@ -1,0 +1,126 @@
+body{
+    font-family: playfair;
+}
+.home {
+    position: relative;
+    background: url('1.jpg') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+.home-content {
+    position: relative;
+    z-index: 1;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.card img.im:hover {
+    filter: brightness(0.5);
+}
+.card img.im .overlay {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+.card img.im:hover .overlay {
+    opacity: 1;
+}
+.achievements {
+    background: url('10.jpg') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    padding: 60px 0;
+    position: relative;
+    z-index: 0;
+}
+.achievements::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+.achievements p {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.achievement-box i {
+    color: #ff8c00;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.achievement-box h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.achievement-box .number {
+    font-size: 25px;
+    font-weight: bold;
+}
+.text{
+    background-color: #ffe6c7;
+}
+.news .card {
+    transition: transform 0.2s;
+}
+.news .card:hover {
+    transform: scale(1.05);
+}
+.team .card {
+    border: none;
+}
+.team .card .card-body {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s;
+    border-radius: 0%;
+}
+.team .card:hover .card-body {
+    opacity: 1;
+}
+.team .text-section ul {
+    list-style: none;
+}
+.team .text-section ul li::before {
+    content: "\2713";
+    color: #ffa500;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.footer {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 40px 0;
+}
+.footer a {
+    color: #000000;
+}
+.footer .gallery img {
+    width: 100%;
+    height: auto;
+}

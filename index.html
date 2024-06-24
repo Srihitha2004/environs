@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Environment page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="test" href="#"><h1 class="text-warning">Environs</h1></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto mr-3 ml-3">
+                    <li class="nav-item ml-2 mr-2">
+                        <a class="nav-link" href="#" onclick="scrollToSection('home-section')">Home</a>
+                    </li>
+                    <li class="nav-item ml-2 mr-2">
+                        <a class="nav-link" href="#" onclick="scrollToSection('about-section')">About</a>
+                    </li>
+                    <li class="nav-item ml-2 mr-2">
+                        <a class="nav-link" href="#" onclick="scrollToSection('service-section')">Services</a>
+                    </li>
+                    <li class="nav-item ml-2 mr-2">
+                        <a class="nav-link" href="#" onclick="scrollToSection('donation-section')">Donation</a>
+                    </li>
+                    <li class="nav-item ml-2 mr-2">
+                        <a class="nav-link" href="#" onclick="scrollToSection('achievements-section')">Achievements</a>
+                    </li>
+                    <li class="nav-item ml-2 mr-2">
+                        <a class="nav-link" href="#" onclick="scrollToSection('Cause-section')">Causes</a>
+                    </li>
+                    <li class="nav-item ml-2 mr-2">
+                        <a class="nav-link" href="#" onclick="scrollToSection('events-section')">Events</a>
+                    </li>
+                    <li class="nav-item ml-2 mr-2">
+                        <a class="nav-link" href="#" onclick="scrollToSection('news-section')">News</a>
+                    </li>
+                    <li class="nav-item ml-2 mr-2">
+                        <a class="nav-link" href="#" onclick="scrollToSection('team-section')">Team</a>
+                    </li>
+                    <li class="nav-item ml-2 mr-2">
+                        <a class="nav-link" href="#" onclick="scrollToSection('contact-section')">Contact</a>
+                    </li>
+                </ul>
+                <button type="button" class="btn btn-warning" onclick="redirectToSignup()">Sign-up</button>
+            </div>
+        </nav>
+    <section class="home" id="home-section">
+        <div class="overlay"></div>
+        <div class="text-center text-white home-content">
+            <h4><b>We'll Save Our Planet</b></h4>
+            <h1 class="font-weight-bold">Protect Environment</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+            <button type="button" class="btn btn-warning">Join With Us</button>
+        </div>
+    </section>
+    <div class="container col-md-12">
+        <section class="about-us mb-5" id="about-section">
+            <div class="row mt-5">
+                <div class="col-md-6">
+                    <img src="2.jpg" class="img-fluid" alt="Eco">
+                </div>
+                <div class="col-md-6">
+                    <h6 class="text-warning">ABOUT US</h6>
+                    <h2 class="font-weight-bold">Our main goal is to protect environment</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has</p>
+                    <div class="btn-group mb-3" role="group" aria-label="Basic example">
+                        <button type="button" class="btn btn-warning mr-3">About</button>
+                        <button type="button" class="btn btn-light mr-3">Mission</button>
+                        <button type="button" class="btn btn-light">Vision</button>
+                    </div>
+                    <div class="mt-3 bg-light">
+                        <h5 class="font-weight-bold">LOREM IPSUM 1</h5>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has</p>
+                        <a href="#" class="btn btn-warning">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="service mt-5 mb-5" id="service-section">
+            <div class="text-center">
+                <h4 class="text-warning">What we do</h4>
+                <h1 class="font-weight-bold mb-5">What we do to protect environment</h1>
+                <div class="row overlay">
+                    <div class="col-md-3 mb-4">
+                        <div class="card">
+                            <img src="3.jpg" class="im" alt="image">
+                            <div class="card-body">
+                                <h5 class="card-title">Raising money to help</h5>
+                                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <div class="card">
+                            <img src="4.jpg" class="im" alt="image">
+                            <div class="card-body">
+                                <h5>Close work with services</h5>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <div class="card">
+                            <img src="5.jpg" class="im" alt="image">
+                            <div class="card-body">
+                                <h5 class="card-title">Pro Guided tours only</h5>
+                                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <div class="card">
+                            <img src="6.jpg" class="im" alt="image">
+                            <div class="card-body">
+                                <h5 class="card-title">Protecting animal area</h5>
+                                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn btn-warning">Read More</button>
+            </div>
+        </section>
+        <section class="donation mt-5 mb-5" id="donation-section">
+            <div class="text-center">
+                <h4 class="text-warning">DONATION</h4>
+                <h1 class="font-weight-bold mb-5">Your money will save our life</h1>
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="7.jpg" class="im" alt="image">
+                            <div class="card-body">
+                                <h6 class="text-warning">ORGANIC</h6>
+                                <h5 class="card-title">Help Us More</h5>
+                                <p class="card-subtitle">Protect Environments</p>
+                                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="8.jpg" class="im" alt="image">
+                            <div class="card-body">
+                                <h6 class="text-warning">ECOSYSTEM</h6>
+                                <h5 class="card-title">Help Us More</h5>
+                                <p class="card-subtitle">Protect Environments</p>
+                                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="9.jpg" class="im" alt="image">
+                            <div class="card-body">
+                                <h6 class="text-warning">RECYCLING</h6>
+                                <h5 class="card-title">Help Us More</h5>
+                                <p class="card-subtitle">Protect Environments</p>
+                                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn btn-warning">All Donation</button>
+            </div>
+        </section>
+        <section class="achievements text-center mb-5" id="achievements-section">
+            <div class="row justify-content-center">
+                <div class="col-md-12">
+                    <h4 class="text-uppercase text-warning mb-4">Achievements</h4>
+                    <p>Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</p>
+                </div>
+            </div>
+            <div class="row stats-section mt-4 mb-5">
+                <div class="col-md-3 stats-box">
+                    <div class="achievement-box">
+                        <i class="fa fa-thumbs-up fa-3x" aria-hidden="true"></i>
+                        <h3>Beavers Saved</h3>
+                        <p class="number">3600 +</p>
+                    </div>
+                </div>
+                <div class="col-md-3 stats-box">
+                    <div class="achievement-box">
+                        <i class="fa fa-usd fa-3x" aria-hidden="true"></i>
+                        <h3>Funds Collected</h3>
+                        <p class="number">513 $</p>
+                    </div>
+                </div>
+                <div class="col-md-3 stats-box">
+                    <div class="achievement-box">
+                        <i class="fa fa-user fa-3x" aria-hidden="true"></i>
+                        <h3>Volunteer</h3>
+                        <p class="number">713 +</p>
+                    </div>
+                </div>
+                <div class="col-md-3 stats-box">
+                    <div class="achievement-box">
+                        <i class="fa fa-heart fa-3x" aria-hidden="true"></i>
+                        <h3>Days of Help</h3>
+                        <p class="number">487 +</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center mt-4">
+                <div class="col-md-4">
+                    <button class="btn btn-warning">Join With Us</button>
+                </div>
+            </div>
+        </section>
+        <section class="recent Causes mt-5 mb-5" id="Cause-section">
+            <div class="text-center">
+                <h4 class="text-warning">RECENT CAUSES</h4>
+                <h1 class="font-weight-bold mb-5">The environment needs our protection</h1>
+                <div class="row overlay">
+                    <div class="col-md-3 mb-4">
+                        <div class="card">
+                            <img src="14.jpg" class="im" alt="image">
+                            <div class="card-body text">
+                                <h5 class="card-title">First environments activity of</h5>
+                                <p class="card-text">Help today because tomorrow you may be the one who needs more helping!</p>
+                                <button class="btn btn-warning">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <div class="card">
+                            <img src="15.jpg" class="im" alt="image">
+                            <div class="card-body text">
+                                <h5 class="card-title">Build school for poor children.</h5>
+                                <p class="card-text">Help today because tomorrow you may be the one who needs more helping!</p>
+                                <button class="btn btn-warning">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <div class="card">
+                            <img src="16.jpg" class="im" alt="image">
+                            <div class="card-body text">
+                                <h5 class="card-title">Building clean-water system for rural poor.</h5>
+                                <p class="card-text">Help today because tomorrow you may be the one who needs more helping!</p>
+                                <button class="btn btn-warning">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <div class="card">
+                            <img src="17.jpg" class="im" alt="image">
+                            <div class="card-body text">
+                                <h5 class="card-title">First environments activity of this summer.</h5>
+                                <p class="card-text">Help today because tomorrow you may be the one who needs more helping!</p>
+                                <button class="btn btn-warning">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="events mt-5 mb-5" id="events-section">
+            <div class="text-center">
+                <h4 class="text-warning">UPCOMING EVENTS</h4>
+                <h1 class="font-weight-bold mb-5">Help today because tomorrow you may be the one who needs more helping!</h1>
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="e1.jpg" class="im" alt="image">
+                            <div class="card-body">
+                                <h5 class="card-title">How To Build A Cleaning Plan</h5>
+                                <p class="card-subtitle">Plastic doesn't belong in nature. But keeping it out of our ecosystems and within a circular economy is a complex challenge.</p>
+                                <button class="btn btn-warning">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="e2.jpg" class="im" alt="image">
+                            <div class="card-body">
+                                <h5 class="card-title">How To Build A Cleaning Plan</h5>
+                                <p class="card-subtitle">Plastic doesn't belong in nature. But keeping it out of our ecosystems and within a circular economy is a complex challenge.</p>
+                                <button class="btn btn-warning">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="e3.jpg" class="im" alt="image">
+                            <div class="card-body">
+                                <h5 class="card-title">How To Build A Cleaning Plan</h5>
+                                <p class="card-subtitle">Plastic doesn't belong in nature. But keeping it out of our ecosystems and within a circular economy is a complex challenge.</p>
+                                <button class="btn btn-warning">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="news mt-5 mb-5" id="news-section">
+            <div class="text-center">
+                <h4 class="text-warning">LATEST NEWS</h4>
+                <h1 class="font-weight-bold mb-5">Help today because tomorrow you may be the one who needs more helping!</h1>
+                <div class="row overlay">
+                    <div class="col-md-3 mb-4">
+                        <div class="card">
+                            <img src="n1.jpg" class="im" alt="image">
+                            <div class="card-body">
+                                <h5 class="card-title">First environments activity of this summer.</h5>
+                                <p class="card-text">Help today because tomorrow you may be the one who needs more helping!</p>
+                                <div class="icons">
+                                    <span><i class="fa fa-heart"></i> 3</span>
+                                    <span><i class="fa fa-comment"></i> 0</span>
+                                </div>
+                                <button class="btn btn-warning">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <div class="card">
+                            <img src="n2.jpg" class="im" alt="image">
+                            <div class="card-body">
+                                <h5 class="card-title">Build school for poor children.</h5>
+                                <p class="card-text">Help today because tomorrow you may be the one who needs more helping!</p>
+                                <div class="icons">
+                                    <span><i class="fa fa-heart"></i> 3</span>
+                                    <span><i class="fa fa-comment"></i> 0</span>
+                                </div>
+                                <button class="btn btn-warning">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <div class="card">
+                            <img src="n3.jpg" class="im" alt="image">
+                            <div class="card-body">
+                                <h5 class="card-title">Building clean-water system for rural poor.</h5>
+                                <p class="card-text">Help today because tomorrow you may be the one who needs more helping!</p>
+                                <div class="icons">
+                                    <span><i class="fa fa-heart"></i> 3</span>
+                                    <span><i class="fa fa-comment"></i> 0</span>
+                                </div>
+                                <button class="btn btn-warning">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <div class="card">
+                            <img src="n4.jpg" class="im" alt="image">
+                            <div class="overlay">
+                            <div class="card-body">
+                                <h5 class="card-title">First environments activity of this summer.</h5>
+                                <p class="card-text">Help today because tomorrow you may be the one who needs more helping!</p>
+                                <div class="icons">
+                                    <span><i class="fa fa-heart"></i> 3</span>
+                                    <span><i class="fa fa-comment"></i> 0</span>
+                                </div>
+                                <button class="btn btn-warning">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="team" id="team-section">
+                <div class="row">
+                    <div class="col-md-6 d-flex flex-wrap">
+                        <div class="col-md-6 mb-4">
+                            <div class="card">
+                                <img src="t1.jpg" alt="Volunteer 1">
+                                <div class="card-body">
+                                    <h5 class="card-title font-weight-bold">Michel Brown</h5>
+                                    <p class="card-text">Communicator</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-4">
+                            <div class="card">
+                                <img src="t2.jpg" alt="Volunteer 2">
+                                <div class="card-body">
+                                    <h5 class="card-title font-weight-bold">Michel Brown</h5>
+                                    <p class="card-text">Communicator</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-4">
+                            <div class="card">
+                                <img src="t3.jpg" alt="Volunteer 3">
+                                <div class="card-body">
+                                    <h5 class="card-title font-weight-bold">Michel Brown</h5>
+                                    <p class="card-text">Communicator</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-4">
+                            <div class="card">
+                                <img src="t4.jpg" alt="Volunteer 4">
+                                <div class="card-body">
+                                    <h5 class="card-title font-weight-bold">Michel Brown</h5>
+                                    <p class="card-text">Communicator</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-section">
+                        <h4 class="text-warning">BECOME A VOLUNTEER?</h4>
+                        <h2 class="font-weight-bold">Join your hand with us for a better life and beautiful future.</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adip sed eiusmod amet consectetur adip sed eiusmod tempor amet consectetur adip sed eiusmod amet consectetur adip sed eiusmod tempor amet consectetur adip sed eiusmod tempor.</p>
+                        <ul>
+                            <li>We are friendly to each other.</li>
+                            <li>If you join with us, We will give you free training.</li>
+                            <li>It's an opportunity to help poor environments.</li>
+                            <li>No goal requirements.</li>
+                            <li>Joining is totally free. We don't need any money from you.</li>
+                        </ul>
+                        <button class="btn btn-warning">Join With Us</button>
+                    </div>
+                </div>
+            </section>
+            <footer class="footer" id="contact-section">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <h5>Newsletter</h5>
+                            <p>Dolor amet sit justo amet elitr clita ipsum elitr est.Lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit.</p>
+                            <div class="newsletter">
+                                <input type="email" class="form-control" placeholder="Enter your email">
+                                <button class="btn btn-warning">SignUp</button>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <h5>Our Services</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Ocean Turtle</a></li>
+                                <li><a href="#">White Tiger</a></li>
+                                <li><a href="#">Social Ecology</a></li>
+                                <li><a href="#">Loneliness</a></li>
+                                <li><a href="#">Beauty of Life</a></li>
+                                <li><a href="#">Present for You</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3">
+                            <h5>Volunteer</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Karen Dawson</a></li>
+                                <li><a href="#">Jack Simmons</a></li>
+                                <li><a href="#">Michael Linden</a></li>
+                                <li><a href="#">Simon Green</a></li>
+                                <li><a href="#">Natalie Channing</a></li>
+                                <li><a href="#">Caroline Gerwig</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3">
+                            <h5>Our Gallery</h5>
+                            <div class="gallery row">
+                                <div class="col-4"><img src="g1.jpg" alt="Image 1"></div>
+                                <div class="col-4"><img src="g2.jpg" alt="Image 2"></div>
+                                <div class="col-4"><img src="g3.jpg" alt="Image 3"></div>
+                                <div class="col-4"><img src="g4.jpg" alt="Image 4"></div>
+                                <div class="col-4"><img src="g5.jpg" alt="Image 5"></div>
+                                <div class="col-4"><img src="g6.jpg" alt="Image 6"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-4">
+                        <div class="col-md-12 text-center">
+                            <p>&copy; Your Site Name, All rights reserved.</p>
+                            <p>Designed by <a href="#">HTML Codex</a> Distributed by <a href="#">ThemeWagon</a></p>
+                            <div class="social-icons">
+                                <a href="https://www.facebook.com/"><i class="fab fa-facebook-f ml-2 mr-2"></i></a>
+                                <a href="https://x.com/"><i class="fab fa-twitter ml-2 mr-2"></i></a>
+                                <a href="https://www.instagram.com/"><i class="fab fa-instagram ml-2 mr-2"></i></a>
+                                <a href="https://in.pinterest.com/"><i class="fab fa-pinterest ml-2 mr-2"></i></a>
+                                <a href="https://www.linkedin.com/"><i class="fab fa-linkedin ml-2 mr-2"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+    </div>
+</body>
+</html>
